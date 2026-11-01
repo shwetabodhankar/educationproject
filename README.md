@@ -72,4 +72,4 @@ The project uses the DATA 5100 Week 3 assignment instructions and the data sourc
 
 The Education setup assignment requests a GitHub repository URL containing the project code and data. The assignment text inconsistently refers to `weather`; this project follows the explicit instruction to name the folder `education`.
 
-The public repository is intended to contain the Education code, source datasets, generated tables, and plots. The discussion and separate proposal drafts are excluded from Git and remain local. Nothing is posted to or submitted in Canvas automatically. Review the discussion drafts and confirm the proposal's suggested work schedule before submission.
+The public [Education project repository](https://github.com/shwetabodhankar/educationproject) contains the Education code, source datasets, generated tables, plots, and solo project proposal draft. The discussion draft is excluded from Git and remains local. Nothing is posted to or submitted in Canvas automatically. Review the discussion draft and confirm the proposal's suggested work schedule before submission.
