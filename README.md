@@ -14,6 +14,5 @@ In all 20 states represented, higher lunch eligibility is associated with lower 
 
 The analysis is in code\Education.ipynb. The data folder holds the source files and cleaned exports, and reports contains the charts, summary tables, and cleaning checks. To run it, install the packages in requirements.txt, open the notebook, and run the cells in order. All cells have been run successfully, and the checks confirm that imputation didn’t change the reported ACT scores or the predictor values that were already available.
 
-For the next stage, I’m planning to try predicting school-average scores from the socioeconomic variables and checking whether prediction errors differ across states. That modeling work isn’t included yet. When I get to it, I’ll fit the imputer on training data only rather than use the full-data imputed file from this exploratory analysis.
+For the next stage, I’m planning to try predicting school-average scores from the socioeconomic variables and checking whether prediction errors differ across states. That modeling work isn’t included yet. When I get to it, I will fit the imputer on training data only rather than use the full-data imputed file from this exploratory analysis.
 
-Data sources: EdGap course spreadsheet, NCES school information, and Census Bureau regions.
