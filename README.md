@@ -30,16 +30,6 @@ The original files remain unchanged. The notebook exports cleaned data separatel
 
 ## Analysis
 
-From this folder on Windows:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m ipykernel install --user --name education --display-name "Education"
-```
-
-Open `code\Education.ipynb` in VS Code, select the Education environment, and run all cells in order. The kernel installation is optional if VS Code can select `.venv` directly.
-
 The notebook:
 
 1. Checks file availability, schemas, school IDs, and duplicate join keys.
@@ -62,14 +52,3 @@ The state summary, cleaning audit, missingness table, and three plots are saved 
 
 These are school-level associations, not estimates of the causal effect of lunch eligibility, poverty, or any policy. Census-tract measures do not describe individual students. Missing states, test participation, ACT/SAT conversions, and differences in reporting may limit comparability. Do not interpret absence from this dataset as absence of schools in a state.
 
-## Author and Acknowledgements
-
-**Author:** Shweta Bodhankar - [shwetabodhankar](https://github.com/shwetabodhankar).
-
-The project uses the DATA 5100 Week 3 assignment instructions and the data sources above. Code and draft prose were developed with AI assistance; review them, verify the analysis, and follow any applicable course disclosure requirements.
-
-## Submission
-
-The Education setup assignment requests a GitHub repository URL containing the project code and data. The assignment text inconsistently refers to `weather`; this project follows the explicit instruction to name the folder `education`.
-
-The public [Education project repository](https://github.com/shwetabodhankar/educationproject) contains the Education code, source datasets, generated tables, plots, and solo project proposal draft. The discussion draft is excluded from Git and remains local. Nothing is posted to or submitted in Canvas automatically. Review the discussion draft and confirm the proposal's suggested work schedule before submission.
